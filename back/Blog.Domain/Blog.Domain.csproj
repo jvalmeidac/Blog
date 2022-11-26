@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR.Contracts" Version="1.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Blog.API\Blog.SharedKernel\Blog.SharedKernel.csproj" />
+    <ProjectReference Include="..\Blog.Domain.CrossCutting\Blog.Domain.CrossCutting.csproj" />
+  </ItemGroup>
+
+</Project>
